@@ -9,9 +9,9 @@ int main(){
 	
 	for(int i=2;i<=n/2;i++) // we need to check only till n/2 nos. as after n/2 the only factor of n would be n itself.
 	{	
-		s=0;
+		s=0; // 0 for false
 		if(n%i!=0)
-		s=1;
+		s=1; // 1 for true
 		else
 		{
 			cout<<"The entered no. is not a prime number.";
